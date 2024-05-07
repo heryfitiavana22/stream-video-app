@@ -1,6 +1,6 @@
 # stream-video-app
 
-This is a simple video streaming web application built with React and Node.js.
+This is a simple video streaming web application built with React and Node.js. You can see [`demo`](https://stream-video-app-hery.vercel.app/)
 
 ## Features
 
