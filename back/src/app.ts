@@ -1,4 +1,4 @@
-import express from "express";
+import express, { NextFunction } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import { Request, Response } from "express";
@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 const API_VERSION = "/api/v1";
 app.use(API_VERSION, videoRouter);
-app.use((error: any, request: Request, response: Response) => {
+app.use((error: any, request: Request, response: Response, next: NextFunction) => {
   if (error instanceof CustomError)
     return response
       .status(error.status)
