@@ -89,7 +89,7 @@ export function PlayVideo({ video }: PlayVideoProps) {
               style={{ width: calculatePercentage(buffered, duration) }}
             />
             <div
-              className="absolute left-0 top-0 h-full bg-red-500 rounded-sm"
+              className="absolute left-0 top-0 h-full bg-gray-900 rounded-sm"
               style={{ width: calculatePercentage(currentTime, duration) }}
             />
           </div>
