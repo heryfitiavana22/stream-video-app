@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "moduleResolution": "Node",
+        "noEmit": true,
+        "lib": ["ES6"],
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        // "allowSyntheticDefaultImports": true
+    },
+    "ts-node": {
+        "swc": true
+    }
+}
