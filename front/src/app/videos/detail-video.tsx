@@ -4,6 +4,7 @@ import { VideoService } from "./video-service";
 import { useParams } from "react-router-dom";
 import { PlayVideo } from "./components/play-video";
 import { SuggestionsVideo } from "./components/suggestions-video";
+import { Loading } from "../../components/loading/loading";
 
 export function DetailVideo() {
   const { url } = useParams();
@@ -11,7 +12,7 @@ export function DetailVideo() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    window.scroll(0, 0)
+    window.scroll(0, 0);
     VideoService.findByUrl(url as string)
       .then((data) => setCurrentVideo(data))
       .catch((e) => {
@@ -20,7 +21,7 @@ export function DetailVideo() {
       .finally(() => setLoading(false));
   }, [url]);
 
-  if (loading) return <div>loading ... </div>;
+  if (loading) return <Loading />;
   if (!currentVideo) throw new Error("Video doesn't exist");
 
   return (
