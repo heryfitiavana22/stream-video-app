@@ -7,7 +7,13 @@ This is a simple video streaming web application built with React and Node.js. Y
 - [x] Video Streaming : Users can watch videos on the frontend with streaming capabilities.
 - [x] Custom controls : duration, progress bar, play/plause, muted/unmuted, ...
 
-## Installation
+## Demo video
+
+<figure class="video_container">
+ <video controls="true" allowfullscreen="true">
+ <source src="./demo.mp4" type="video/mp4">
+ </video>
+</figure>
 
 ## Installation
 
