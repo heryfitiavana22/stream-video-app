@@ -9,11 +9,7 @@ This is a simple video streaming web application built with React and Node.js. Y
 
 ## Demo video
 
-<figure class="video_container">
- <video controls="true" allowfullscreen="true">
- <source src="./demo.mp4" type="video/mp4">
- </video>
-</figure>
+[Link](./demo.mp4)
 
 ## Installation
 
