@@ -8,6 +8,7 @@ export function CardVideo({ video }: CardVideoProps) {
     <Link
       to={"/video/" + video.url}
       className="rounded-lg group overflow-hidden shadow-lg"
+      title={video.title}
     >
       <div className="relative">
         <img
@@ -26,7 +27,7 @@ export function CardVideo({ video }: CardVideoProps) {
         </div>
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-bold mb-2">{video.title}</h3>
+        <h3 className="text-lg font-bold mb-2 line-clamp-2 overflow-ellipsis">{video.title}</h3>
         <p className="text-gray-600 line-clamp-2">{video.description}</p>
       </div>
     </Link>

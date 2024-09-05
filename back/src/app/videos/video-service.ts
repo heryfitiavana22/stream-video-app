@@ -4,9 +4,9 @@ export class VideoService {
       id: 1,
       url: "video1.mp4",
       thumbnail: "img1.png",
-      title: "Lorem ipsum dolor",
+      title: "Améliorer l'expérience utilisateur avec l'attribut title sur des liens de texte tronqué",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, officia.",
+        "Lorsque les titres de vidéos ou d'articles sont trop longs, ils peuvent être coupés visuellement.",
     },
     {
       id: 2,
