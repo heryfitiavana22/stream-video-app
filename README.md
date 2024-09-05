@@ -9,7 +9,10 @@ This is a simple video streaming web application built with React and Node.js. Y
 
 ## Demo video
 
-[Link](./demo.mp4)
+
+https://github.com/heryfitiavana22/stream-video-app/assets/105294881/237c6170-3d3f-4a27-bd29-31cea7b22de4
+
+
 
 ## Installation
 
